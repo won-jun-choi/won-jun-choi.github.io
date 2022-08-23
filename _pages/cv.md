@@ -9,51 +9,39 @@ redirect_from:
 
 {% include base_path %}
 
+
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Ph.D. in Economics, Emory University, 2026 (expected)
+* M.A. in Economics, Korea University, 2021
+* B.S. in Mathematics and Economics, Korea University, 2018
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <!-- <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+  {% endfor %}</ul> -->
+
+Work experience
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+Research Assistant, Korea University, 2019-2020
+  * Prof. Jinyoung Kim
+  * Prof. Woochang Kang
+
+Research Assistant, Korea Labor Institute, 2020
+  * Ph.D. Enhye Kwak
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+Teaching Assistant, Korea University, 2019-2021
+  * Principle of Economics 1, Intermediate Microeconomics, Intermediate Macroeconomics, Econometric Analysis (Graduate), Microeconometrics (Graduate)
+
+  <!-- <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+  {% endfor %}</ul> -->
+
+Languages & Skills
 ======
-* Currently signed in to 43 different slack teams
+* Korean (Native), English (Fluent)
+* Python, R, Stata, Matlab, GAUSS
