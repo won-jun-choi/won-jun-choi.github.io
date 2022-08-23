@@ -19,9 +19,6 @@ Education
 
 Publications
 ======
-  <!-- <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
 
 Work experience
 ======
@@ -36,10 +33,6 @@ Teaching
 ======
 Teaching Assistant, Korea University, 2019-2021
   * Principle of Economics 1, Intermediate Microeconomics, Intermediate Macroeconomics, Econometric Analysis (Graduate), Microeconometrics (Graduate)
-
-  <!-- <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
 
 Languages & Skills
 ======
