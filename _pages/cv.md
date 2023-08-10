@@ -34,7 +34,10 @@ Teaching
 Teaching Assistant, Korea University, 2019-2021
   * Principle of Economics 1, Intermediate Microeconomics, Intermediate Macroeconomics, Econometric Analysis (Graduate), Microeconometrics (Graduate)
 
+Teaching Assistant, Emory University, 2022-
+  * Econometrics, Advanced Financial Markets
+
 Languages & Skills
 ======
-* Korean (Native), English (Fluent)
+* Korean, English
 * Python, R, Stata, Matlab, GAUSS
