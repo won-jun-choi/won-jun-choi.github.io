@@ -22,6 +22,11 @@ Publications
 
 Work experience
 ======
+Research Assistant, Emory University, 2022-2024
+  * Prof. Maria Arbatskaya
+  * Prof. Caroline Fohlin
+  * Prof. Ian McCarthy
+
 Research Assistant, Korea University, 2019-2020
   * Prof. Jinyoung Kim
   * Prof. Woochang Kang
@@ -31,13 +36,13 @@ Research Assistant, Korea Labor Institute, 2020
 
 Teaching
 ======
+Teaching Assistant, Emory University, 2022-2024
+  * Econometrics
+
 Teaching Assistant, Korea University, 2019-2021
   * Principle of Economics 1, Intermediate Microeconomics, Intermediate Macroeconomics, Econometric Analysis (Graduate), Microeconometrics (Graduate)
 
-Teaching Assistant, Emory University, 2022-
-  * Econometrics, Advanced Financial Markets
-
 Languages & Skills
 ======
-* Korean, English
+* Korean (Native), English (Fluent)
 * Python, R, Stata, Matlab, GAUSS
