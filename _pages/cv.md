@@ -36,8 +36,11 @@ Research Assistant, Korea Labor Institute, 2020
 
 Teaching
 ======
+Instructor, Emory University, 2025
+  * Data Science for Economists (ECON 220)
+
 Teaching Assistant, Emory University, 2022-2024
-  * Econometrics
+  * Econometrics (ECON 320)
 
 Teaching Assistant, Korea University, 2019-2021
   * Principle of Economics 1, Intermediate Microeconomics, Intermediate Macroeconomics, Econometric Analysis (Graduate), Microeconometrics (Graduate)
