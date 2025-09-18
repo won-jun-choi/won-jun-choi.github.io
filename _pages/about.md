@@ -8,6 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Wonjun from South Korea. I am a second year Ph.D. student in the Department of Economics at Emory University. Before joining Emory, I earned Masters in Economics and B.S. in mathematics and economics from Korea University.
-
-My research interest lies broadly in the field of micro-econometrics and treatment effect analysis.
+Hi, I’m Wonjun Choi, a fifth-year Ph.D. candidate in Economics at Emory University. I study treatment rules and nonparametric econometrics under shape constraints, drawing on machine learning and optimal transport.
