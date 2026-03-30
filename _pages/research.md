@@ -8,3 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
+Work in Progress
+
+Estimation and Inference on Conditional Moment Restriction Models
+
+Fair Empirical Welfare Maximization
