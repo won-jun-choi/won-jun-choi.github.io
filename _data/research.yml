@@ -1,0 +1,33 @@
+---
+fields:
+- Econometrics Theory
+- Causal Inference
+- Machine Learning
+job_market_paper:
+  title: Nonparametric Estimation and Inference in Affine Conditional Moment Restriction
+    Models
+  abstract: Conditional moment restriction (CMR) models provide a flexible framework
+    for structural and reduced-form analysis. This paper develops a general framework
+    for nonparametric estimation and inference in affine CMR models. We build on the
+    sieve minimum distance framework, while allowing for modern machine learning methods
+    in the first stage to accommodate flexible estimation of the conditional moment
+    with many instrumental variables. We provide Wald statistic for testing smooth
+    functionals, and provide strong approximation of our sieve coefficients, which
+    can be used for various inference problems.
+work_in_progress:
+- title: A Nonparametric Test of Supermodularity and Complementarity
+  coauthors:
+  - Zhenting Sun
+  - Zheng Fang
+  description: This paper develops a nonparametric test of supermodularity and complementarity.
+- title: Partially Constrained Deep Learning
+  coauthors:
+  - Qihui Chen
+  - Zheng Fang
+  description: This paper develops neural networks that enforce shape constraints
+    by construction.
+- title: "(Tentative) Distributional Difference in Differences"
+  coauthors:
+  - Ka Yan Cheng
+  - Florian Gunsilius
+  description: We develop a novel distributional difference in differences estimator.

@@ -1,0 +1,27 @@
+---
+- institution: Emory University
+  department: Department of Economics
+  courses:
+  - title: 'ECON 524: Big Data Econometrics'
+    role: Teaching Assistant
+    level: Master's
+    term: Fall 2025
+  - title: 'ECON 220 Lab: Data Science for Economists'
+    role: Instructor
+    level: Undergraduate
+    term: Spring 2025
+  - title: 'ECON 220: Data Science for Economists'
+    role: Teaching Assistant
+    level: Undergraduate
+    term: Fall 2024
+- institution: Korea University
+  department: Department of Economics
+  courses:
+  - title: Econometric Analysis
+    role: Teaching Assistant
+    level: Graduate
+    term: Spring 2021
+  - title: Microeconometrics
+    role: Teaching Assistant
+    level: Graduate
+    term: Spring 2020

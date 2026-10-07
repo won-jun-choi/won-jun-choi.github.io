@@ -1,0 +1,57 @@
+---
+education:
+- institution: Emory University
+  degree: Ph.D. in Economics
+  date: Spring 2027 (Expected)
+- institution: Korea University
+  degree: Masters in Economics
+  date: Spring 2021
+- institution: Korea University
+  degree: B.S. in Mathematics and Economics
+  date: Spring 2018
+  note: Includes 2 years of military service.
+research_experience:
+- institution: Emory University
+  department: Department of Economics
+  appointments:
+  - supervisor: Prof. Stefan Hoderlein
+    date: Spring 2026
+  - supervisor: Prof. Zheng Fang
+    date: Fall 2025
+  - supervisor: Prof. Maria Arbatskaya
+    date: Spring 2024, 2025
+  - supervisor: Prof. Caroline Fohlin
+    date: Fall 2023
+  - supervisor: Prof. Ian McCarthy
+    date: Fall 2022
+- institution: Korea University
+  department: Department of Political Science
+  appointments:
+  - supervisor: Prof. Woochang Kang
+    date: Fall 2020
+- institution: Korea Labor Institute
+  appointments:
+  - supervisor: Ph.D. Enhye Kwak
+    date: Spring 2020
+- institution: Korea University
+  department: Department of Economics
+  appointments:
+  - supervisor: Prof. Jinyoung Kim
+    date: Fall 2019
+presentations:
+- event: Southern Economic Association (SEA) annual meeting
+  date: November 2026
+software:
+- Python
+- R
+- MATLAB
+- LaTeX
+languages:
+- English (fluent)
+- Korean (native)
+references:
+- Zheng Fang (chair)
+- Florian Gunsilius
+- Esfandiar Maasoumi, Committee Member
+- Pedro H.C. Sant’Anna
+reference_email: econjm@emory.edu

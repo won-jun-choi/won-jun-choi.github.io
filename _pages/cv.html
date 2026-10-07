@@ -1,0 +1,73 @@
+---
+layout: single
+title: "Curriculum Vitae"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+  - /resume/
+---
+
+<div class="profile-actions">
+  <a class="btn btn--primary" href="{{ '/files/CV.pdf' | relative_url }}">Download CV <span class="button-format">PDF</span></a>
+</div>
+
+<h2>Fields</h2>
+<p>{{ site.data.research.fields | join: ', ' }}</p>
+
+<h2>Education</h2>
+{% for degree in site.data.cv.education %}
+<section class="cv-entry">
+  <h3>{{ degree.institution }}</h3>
+  <p>{{ degree.degree }}<br><span class="entry-meta">{{ degree.date }}</span></p>
+  {% if degree.note %}<p class="entry-meta">{{ degree.note }}</p>{% endif %}
+</section>
+{% endfor %}
+
+<h2>Job Market Paper</h2>
+<p><a href="{{ '/research/#job-market-paper' | relative_url }}">{{ site.data.research.job_market_paper.title }}</a></p>
+
+<h2>Work in Progress</h2>
+{% for paper in site.data.research.work_in_progress %}
+<section class="cv-entry">
+  <h3>{{ paper.title }}</h3>
+  <p class="entry-meta">with {{ paper.coauthors | join: ' and ' }}</p>
+</section>
+{% endfor %}
+
+<h2>Research Experience</h2>
+{% for institution in site.data.cv.research_experience %}
+<h3>{{ institution.institution }}</h3>
+{% if institution.department %}<p class="entry-meta">{{ institution.department }}</p>{% endif %}
+<ul class="cv-list">
+{% for appointment in institution.appointments %}
+  <li>Research Assistant to {{ appointment.supervisor }}<br><span class="entry-meta">{{ appointment.date }}</span></li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+<h2>Teaching Experience</h2>
+{% for institution in site.data.teaching %}
+<h3>{{ institution.institution }}</h3>
+<ul class="cv-list">
+{% for course in institution.courses %}
+  <li>{{ course.role }} · {{ course.title }} ({{ course.level }})<br><span class="entry-meta">{{ course.term }}</span></li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+<h2>Conference Presentations</h2>
+{% for presentation in site.data.cv.presentations %}
+<p>{{ presentation.event }}<br><span class="entry-meta">{{ presentation.date }}</span></p>
+{% endfor %}
+
+<h2>Skills</h2>
+<p><strong>Software:</strong> {{ site.data.cv.software | join: ', ' }}<br><strong>Languages:</strong> {{ site.data.cv.languages | join: ', ' }}</p>
+
+<h2>References</h2>
+<p>Please request reference letters from all writers through <a href="mailto:{{ site.data.cv.reference_email }}">{{ site.data.cv.reference_email }}</a>.</p>
+<ul class="cv-list">
+{% for reference in site.data.cv.references %}
+  <li>{{ reference }}<br><span class="entry-meta">Department of Economics, Emory University</span></li>
+{% endfor %}
+</ul>
