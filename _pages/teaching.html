@@ -1,8 +1,17 @@
 ---
-layout: archive
+layout: single
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+{% for institution in site.data.teaching %}
+<h2>{{ institution.institution }}</h2>
+<p class="entry-meta">{{ institution.department }}</p>
+{% for course in institution.courses %}
+<section class="cv-entry">
+  <h3>{{ course.title }}</h3>
+  <p>{{ course.role }} · {{ course.level }}<br><span class="entry-meta">{{ course.term }}</span></p>
+</section>
+{% endfor %}
+{% endfor %}

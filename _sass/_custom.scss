@@ -1,0 +1,49 @@
+/* Personal refinements on the Academic Pages theme. */
+:root {
+  --global-base-color: #1d4566;
+  --global-link-color: #235c84;
+  --global-link-color-hover: #163c58;
+  --global-link-color-visited: #235c84;
+  --global-text-color: #303c47;
+}
+html[data-theme="dark"] {
+  --global-base-color: #96c7e9;
+  --global-link-color: #96c7e9;
+  --global-link-color-hover: #c3e3f8;
+  --global-link-color-visited: #96c7e9;
+  --global-text-color: #f1f3f5;
+}
+.page__title { font-family: Georgia, "Times New Roman", serif; font-weight: 500; line-height: 1.2; }
+.page__content { line-height: 1.7; }
+.page__content h2 { margin-top: 2em; font-size: 1.2em; }
+.page__content h3 { font-size: 1.05em; line-height: 1.45; margin-bottom: .45em; }
+.intro-affiliation { color: var(--global-link-color); font-size: .95em; margin-bottom: 1.3em !important; }
+.profile-actions { display: flex; flex-wrap: wrap; gap: .7em; margin: 1.6em 0; }
+.page__content .btn { text-decoration: none; margin: 0; }
+.profile-actions .btn--primary { background: var(--global-link-color); color: var(--global-bg-color) !important; }
+.profile-actions .btn--inverse { background: var(--global-bg-color); color: var(--global-text-color) !important; border: 1px solid var(--global-dark-border-color) !important; }
+.button-format { font-size: .72em; opacity: .85; margin-left: .6em; }
+.research-fields { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .5em .75em; }
+.research-fields li { font-size: .85em; margin: 0; padding: .25em .7em; border: 1px solid var(--global-border-color); border-radius: 3px; }
+.featured-paper { padding-left: 1.2em; border-left: 3px solid var(--global-link-color); }
+.featured-paper h3 { margin-top: 0; }
+.featured-paper h3 a { color: var(--global-text-color); text-decoration: none; }
+.text-link { font-size: .9em; }
+.entry-meta { color: var(--global-text-color); opacity: .8; font-size: .9em !important; }
+.cv-entry { margin-bottom: 1.5em; }
+.cv-entry h3 { margin-top: 0; }
+.cv-entry p { margin-bottom: .4em; }
+.cv-list { padding-left: 1.2em; }
+.cv-list li { margin-bottom: .8em; }
+.author__avatar img { border-radius: 12px; }
+.author__bio { line-height: 1.5; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--global-link-color); outline-offset: 4px; }
+@media (max-width: 767px) {
+  .page__title { font-size: 1.7em; }
+  .featured-paper { padding-left: .85em; }
+}
+
+/* Keep long research and CV pages clear of the footer. */
+body { margin-bottom: 0 !important; }
+.page__footer { position: relative; bottom: auto; color: var(--global-text-color); }
+.author__urls-wrapper .btn { color: var(--global-text-color) !important; background: var(--global-bg-color); border-color: var(--global-dark-border-color) !important; }
