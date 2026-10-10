@@ -12,7 +12,7 @@ job_market_paper:
     sieve minimum distance framework, while allowing for modern machine learning methods
     in the first stage to accommodate flexible estimation of the conditional moment
     with many instrumental variables. We provide Wald statistic for testing smooth
-    functionals, and provide strong approximation of our sieve coefficients, which
+    functionals, and provide Gaussian coupling of our sieve coefficients, which
     can be used for various inference problems.
 work_in_progress:
 - title: A Nonparametric Test of Supermodularity and Complementarity
@@ -30,4 +30,5 @@ work_in_progress:
   coauthors:
   - Ka Yan Cheng
   - Florian Gunsilius
-  description: We develop a novel distributional difference in differences estimator.
+  description: We propose a novel distributional difference in differences estimator
+    that includes quantile difference in differences as a special case.
