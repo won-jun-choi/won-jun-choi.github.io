@@ -4,16 +4,19 @@ fields:
 - Causal Inference
 - Machine Learning
 job_market_paper:
-  title: Nonparametric Estimation and Inference in Affine Conditional Moment Restriction
-    Models
+  title: A Machine Learning Approach to Affine Conditional Moment Restriction Models
   abstract: Conditional moment restriction (CMR) models provide a flexible framework
     for structural and reduced-form analysis. This paper develops a general framework
     for nonparametric estimation and inference in affine CMR models. We build on the
-    sieve minimum distance framework, while allowing for modern machine learning methods
-    in the first stage to accommodate flexible estimation of the conditional moment
-    with many instrumental variables. We provide Wald statistic for testing smooth
-    functionals, and provide Gaussian coupling of our sieve coefficients, which
-    can be used for various inference problems.
+    sieve minimum distance framework of Chen and Pouzo (2015), while allowing modern
+    machine learning methods in the first stage to accommodate flexible estimation
+    of conditional moments with many instrumental variables. Using an orthogonalized
+    minimum distance criterion, we characterize the requirements on first-stage learners
+    through their prediction errors, without restricting the analysis to a particular
+    class of learners. We provide a Wald statistic for testing smooth functionals and
+    a Gaussian coupling of the estimated sieve coefficients, which can be used for
+    various inference problems. We also provide lower-level verification of the
+    first-stage requirements for selected machine learning methods.
 work_in_progress:
 - title: A Nonparametric Test of Supermodularity and Complementarity
   coauthors:
@@ -30,5 +33,5 @@ work_in_progress:
   coauthors:
   - Ka Yan Cheng
   - Florian Gunsilius
-  description: We propose a novel distributional difference in differences estimator
-    that includes quantile difference in differences as a special case.
+  description: We propose a distributional difference-in-differences framework that
+    includes quantile difference-in-differences and other methods as a special case.
