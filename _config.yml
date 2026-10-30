@@ -153,6 +153,10 @@ collections:
     permalink: "/:collection/:path/"
 defaults:
 - scope:
+    path: files/JMP.pdf
+  values:
+    sitemap: false
+- scope:
     path: ''
     type: posts
   values:
