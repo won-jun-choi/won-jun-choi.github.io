@@ -5,18 +5,21 @@ fields:
 - Machine Learning
 job_market_paper:
   title: A Machine Learning Approach to Affine Conditional Moment Restriction Models
-  abstract: Conditional moment restriction (CMR) models provide a flexible framework
-    for structural and reduced-form analysis. This paper develops a general framework
-    for nonparametric estimation and inference in affine CMR models. We build on the
-    sieve minimum distance framework of Chen and Pouzo (2015), while allowing modern
-    machine learning methods in the first stage to accommodate flexible estimation
-    of conditional moments with many instrumental variables. Using an orthogonalized
-    minimum distance criterion, we characterize the requirements on first-stage learners
-    through their prediction errors, without restricting the analysis to a particular
-    class of learners. We provide a Wald statistic for testing smooth functionals and
-    a Gaussian coupling of the estimated sieve coefficients, which can be used for
-    various inference problems. We also provide lower-level verification of the
-    first-stage requirements for selected machine learning methods.
+  abstract: This paper develops a general framework for estimation and inference
+    in a class of affine conditional moment restriction models. Empirical
+    applications of these models often involve a small number of endogenous
+    regressors but a large set of instruments. Exploiting the affine structure, we
+    leverage machine learning methods to develop an estimation procedure that is
+    computationally fast and scales well to high dimensional instrumental
+    variables. Using an orthogonalized minimum distance criterion, we characterize
+    the requirement on the machine learners through their prediction errors,
+    without restricting the analysis to a particular class of learners. Under this
+    requirement, we develop a Wald statistic for hypotheses concerning smooth
+    functionals. We also provide lower-level verification of our requirement for
+    selected machine learning methods, as well as a Gaussian coupling of the
+    estimated sieve coefficients useful for various inference problems. We examine
+    the finite sample performance of our method through simulation studies and
+    illustrate its use in an empirical application to migration in Tanzania.
 work_in_progress:
 - title: A Nonparametric Test of Supermodularity and Complementarity
   coauthors:
