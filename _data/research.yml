@@ -5,6 +5,7 @@ fields:
 - Machine Learning
 job_market_paper:
   title: A Machine Learning Approach to Affine Conditional Moment Restriction Models
+  pdf_url: /files/JMP.pdf
   abstract: This paper develops a general framework for estimation and inference
     in a class of affine conditional moment restriction models. Empirical
     applications of these models often involve a small number of endogenous
