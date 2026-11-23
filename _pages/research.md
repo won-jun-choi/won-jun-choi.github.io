@@ -11,6 +11,8 @@ redirect_from:
 
 ### {{ site.data.research.job_market_paper.title }}
 
+[Read the paper (PDF)]({{ site.data.research.job_market_paper.pdf_url | relative_url }})
+
 {{ site.data.research.job_market_paper.abstract }}
 
 ## Work in Progress

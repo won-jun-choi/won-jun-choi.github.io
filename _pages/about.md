@@ -32,6 +32,7 @@ I am a Ph.D. candidate in Economics at Emory University, with an expected gradua
 
 <div class="featured-paper">
   <h3><a href="{{ '/research/#job-market-paper' | relative_url }}">{{ site.data.research.job_market_paper.title }}</a></h3>
+  <p><a href="{{ site.data.research.job_market_paper.pdf_url | relative_url }}">Read the paper (PDF)</a></p>
   <p>{{ site.data.research.job_market_paper.abstract }}</p>
   <a class="text-link" href="{{ '/research/' | relative_url }}">Research and work in progress <span aria-hidden="true">→</span></a>
 </div>
